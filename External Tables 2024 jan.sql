@@ -2,13 +2,12 @@ SELECT SERVERPROPERTY('IsPolyBaseInstalled') AS IsPolyBaseInstalled;
 
 
 --  ######Create master key Encrytion########
-CREATE MASTER KEY ENCRYPTION BY PASSWORD='lE@RNaZURt556!'
+CREATE MASTER KEY ENCRYPTION BY PASSWORD='***********'
 
 --#####Database Scoped Credential#####
---   ?sv=2021-06-08&ss=bfqt&srt=sco&sp=rwdlacupyx&se=2022-10-14T08:43:46Z&st=2022-10-07T00:43:46Z&spr=https&sig=s5x2AYhgX3OTEf3%2BzI8lhFiu5UBv8eNJwriAY3lVAYE%3D
 create DATABASE SCOPED CREDENTIAL [SLCred555]
 WITH IDENTITY='SHARED ACCESS SIGNATURE',
-SECRET='sp=racwdlmeop&st=2024-03-07T22:08:28Z&se=2024-03-30T05:08:28Z&sv=2022-11-02&sr=c&sig=3XYab9gkeXMJMOTM3G%2Fk4em1C35DvIYKqwxhuFrBuUQ%3D'
+SECRET='******************************************************************************************************************KqwxhuFrBuUQ%3D'
 GO
 
 
